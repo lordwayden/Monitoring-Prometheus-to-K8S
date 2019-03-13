@@ -87,3 +87,5 @@ Alertmanager обслуживает уведомления, отправляем
 Мы уже установили Alertmanager командами выше, и осталось пробросить порт сервиса на ваш компьютер, после чего можно будет открывать http://localhost:9093 в веб-браузере:
 
 $ kubectl port-forward -n monitoring alertmanager-alertmanager-0 9093
+
+Credits: https://habr.com/ru/company/flant/blog/340728/
